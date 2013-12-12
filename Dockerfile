@@ -5,11 +5,9 @@
 # testing purposes, but copyright is owned by dotcloud.
 
 
-maintainer Thatcher Peskens
-
-from ubuntu:12.10
+from stackbrew/ubuntu:12.10
  
-run apt-get install -y python-setuptools
+run apt-get install -y --force-yes python-setuptools
 run easy_install pip
 add . /website
 run pip install -r /website/requirements.txt
