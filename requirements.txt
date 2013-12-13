@@ -12,6 +12,6 @@ six==1.3.0
 wsgiref==0.1.2
 django-markdown-deux
 South==0.8.2
-git+https://github.com/dotcloud/docker-tutorial.git#egg=DockerTutorial-dev
+#git+https://github.com/dotcloud/docker-tutorial.git#egg=DockerTutorial-dev
 django-storages==1.1.8
 boto==2.13.3
